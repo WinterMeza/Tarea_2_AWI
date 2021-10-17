@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Formulario_TA2</title>
+         <link rel="stylesheet" href="estilos.css">
+        <link rel="icon" type="image/png" href="img/icono.jpg">
+                 <!--ESTUDIANTE: MEZA JIMENEZ WINTER.
+                   ASIGNATURA: APLICACIONES WEB I.
+                   DOCENTE: ING PATRICIA QUIROZ PALMA.
+                  CURSO: QUINTO NIVEL "B" 2021(2).-->
+    </head>
+<body>
+
+    <div class="login-box">
+        
+       
+        <h1>REGISTRO DE <span> <strong>CLIENTE</strong> </span>
+        </h1>
+        <form autocomplete="off">
+            <div class="imagen"><img src="img/icono.jpg" alt="imagen"></div>
+          <label for="Nombre">Nombre:</label>
+          <input type="text" id="Nombre de usuario"required>
+
+          <label for="Apellido">Apellido:</label>
+          <input type="text" id="Apellido de usuario">
+
+          <label for="Fechadenacimiento">Fecha de nacimiento:</label>
+          <input type="date" id="dd/mm/aa/">
+
+          <label for="Telefono">Teléfono:</label>
+          <input type="tel" id="Teléfono de usuario">
+
+          <label for="Correo">Correo eléctronico: </label>
+          <input type="text" id="Correo electrónico">
+  
+          <label for="Contraseña">Contraseña:</label>
+          <input type="password" id="Contraseña">
+        
+        <div class="regis">
+            <input type="submit"id="enviar" onclick="myFunction()" value="Enviar">
+        </div>
+        <div class="reset">
+            <input type="reset" id="Borrar" onclick="myFunctions()"value="Borrar"> 
+        </div> 
+        
+    
+        </form>  
+        <div id="error"> </div>
+    </div>
+        <p> <strong>ESTUDIANTE: MEZA JIMENEZ WINTER.</strong> </p>
+        <p> <strong>ASIGNATURA: APLICACIONES WEB I.</strong> </p>
+        <p> <strong>DOCENTE: ING PATRICIA QUIROZ PALMA. </strong></p>
+        <p> <strong>CURSO: QUINTO NIVEL "B" 2021(2).</strong> </p>
+
+    
+<script src="formulario.js"></script>
+</body>
+</html>
